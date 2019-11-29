@@ -39,7 +39,7 @@ model.summary()
 model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])
 
 _ = input("Press any key to proceed for Training ... !")
-model.fit(x=x_train,y=y_train, epochs=1)
+model.fit(x=x_train,y=y_train, epochs=10)
 
 print("MNIST Model Training Complete !!!")
 _ = input("Press any key to proceed for model Evaluation  ... !")
